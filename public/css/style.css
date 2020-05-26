@@ -27,15 +27,17 @@
 .container-login-signup {
     width: 100%;
     min-height: 829px;
-    background: rgb(222,165,165);
-    background: linear-gradient(0deg, rgba(222,165,165,1) 0%, rgba(227,161,127,0.9794292717086834) 41%, rgba(227,140,95,1) 100%);
+    background: rgb(222, 165, 165);
+    background: linear-gradient(0deg, rgba(222, 165, 165, 1) 0%, rgba(227, 161, 127, 0.9794292717086834) 41%, rgba(227, 140, 95, 1) 100%);
 }
 
 .responsive-menu {
     display: none;
 }
 
+
 /* Title */
+
 .title {
     font-size: 30px;
     color: #7d7d7d;
@@ -46,50 +48,63 @@
     color: #888888;
     margin-top: 0;
 }
+
+
 /* End Title*/
+
 
 /* Margin Definitions */
 
-.mt-5, .my-5 {
+.mt-5,
+.my-5 {
     margin-top: 5%;
 }
 
-.mb-5, .my-5 {
+.mb-5,
+.my-5 {
     margin-bottom: 5%;
 }
 
-.ml-5, .mx-5 {
+.ml-5,
+.mx-5 {
     margin-left: 5%;
 }
 
-.mr-5, .mx-5 {
+.mr-5,
+.mx-5 {
     margin-right: 5%;
 }
 
-.mt-2, .my-2 {
+.mt-2,
+.my-2 {
     margin-top: 2%;
 }
 
-.mb-2, .my-2 {
+.mb-2,
+.my-2 {
     margin-bottom: 2%;
 }
 
-.ml-2, .mx-2 {
+.ml-2,
+.mx-2 {
     margin-left: 2%;
 }
 
-.mr-2, .mx-2 {
+.mr-2,
+.mx-2 {
     margin-right: 2%;
 }
 
+
 /* End Margin definitions */
+
 
 /* Header */
 
 .header-wrapper {
     position: relative;
-    background: rgb(227,140,95);
-    background: linear-gradient(0deg, rgba(227,140,95,1) 1%, rgba(223,119,64,1) 54%, rgba(195,78,18,1) 100%);
+    background: rgb(227, 140, 95);
+    background: linear-gradient(0deg, rgba(227, 140, 95, 1) 1%, rgba(223, 119, 64, 1) 54%, rgba(195, 78, 18, 1) 100%);
 }
 
 .header {
@@ -98,6 +113,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 
 /* Logo*/
 
@@ -109,7 +125,9 @@
     display: flex;
 }
 
+
 /* End Logo */
+
 
 /* Navbar */
 
@@ -171,13 +189,17 @@
 
 .mobile-nav .responsive-menu ul li a {
     text-decoration: none;
-    color: white; 
+    color: white;
     padding: 15px 0;
     min-width: 150px;
 }
 
+
 /* End Navbar */
+
+
 /* End Header*/
+
 
 /* Main Banner */
 
@@ -204,7 +226,9 @@
     font-size: 16px;
 }
 
+
 /* End Main Banner */
+
 
 /* Boxes */
 
@@ -242,7 +266,9 @@
     text-decoration: none;
 }
 
+
 /* End Boxes */
+
 
 /* Events */
 
@@ -258,7 +284,9 @@
     color: #a1a1a1;
 }
 
+
 /* End Events*/
+
 
 /* Blogs */
 
@@ -280,7 +308,6 @@
 
 .blog-btn {
     text-align: center;
-    
 }
 
 .blog-btn a {
@@ -298,7 +325,9 @@
     color: #fff;
 }
 
+
 /* End Blogs */
+
 
 /* Subscribe */
 
@@ -350,7 +379,7 @@
 .subscribe-form .form-inline input[type=submit] {
     vertical-align: middle;
     margin: 5px 0;
-    padding: 10px 20px;
+    padding: 12px 20px 9px 20px;
     font-size: 14px;
     color: #444444;
     border: 1px solid #ccc;
@@ -364,7 +393,9 @@
     background-color: #d65614;
 }
 
+
 /* End Subscribe */
+
 
 /* Executive */
 
@@ -390,13 +421,14 @@
     object-fit: contain;
 }
 
+
 /* End Executive*/
+
 
 /* Footer */
 
 .footer-wrapper {
     background-color: #d65714;
-    
 }
 
 .footer {
@@ -406,11 +438,13 @@
     flex-direction: column;
 }
 
-.footer .contact, .footer .social {
+.footer .contact,
+.footer .social {
     display: flex;
 }
 
-.footer .contact ul, .footer .social ul {
+.footer .contact ul,
+.footer .social ul {
     display: flex;
     padding-left: 0;
 }
@@ -434,7 +468,7 @@
     border-top: 3px solid #fff;
 }
 
-.footer .social  {
+.footer .social {
     margin-bottom: 10px;
 }
 
@@ -467,11 +501,12 @@
     letter-spacing: 0.8px;
 }
 
+
 /* End Footer */
 
 
-
 /* Login & SignUp*/
+
 
 /*.flex-center {
     display: flex;
@@ -479,14 +514,14 @@
     justify-content: center;
 }*/
 
-.login-wrapper, 
+.login-wrapper,
 .signup-wrapper {
     max-width: 800px;
     margin: 0 auto;
     padding-top: 70px;
 }
 
-.login-box, 
+.login-box,
 .signup-box {
     width: 80%;
     background-color: #fff;
@@ -494,14 +529,14 @@
     padding: 30px;
 }
 
-.login-form, 
+.login-form,
 .signup-form {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
 }
 
-.login-form h2, 
+.login-form h2,
 .signup-form h2 {
     color: #6d6d6d;
     font-weight: 400;
@@ -510,8 +545,7 @@
 .login-box .login-form form input[type=text],
 .login-box .login-form form input[type=password],
 .signup-box .signup-form form input[type=text],
-.signup-box .signup-form form input[type=password]
- {
+.signup-box .signup-form form input[type=password] {
     display: block;
     width: 100%;
     padding: 15px 15px;
@@ -555,7 +589,7 @@ input[type=checkbox] {
 
 .login-options .option-forgot a {
     text-decoration: none;
-    color:#d65714;
+    color: #d65714;
 }
 
 .login-box .login-form form .login-btn,
@@ -607,6 +641,7 @@ input[type=checkbox] {
     color: #d65714;
 }
 
+
 /* Message box in Login */
 
 .login-msg :first-child {
@@ -656,60 +691,56 @@ input[type=checkbox] {
     border-color: #bce8f1;
 }
 
+
 /* End Message box in Login */
+
 
 /* End Login & SignUp */
 
+
 /* Responsive */
+
+
 /* Tablet - do 768 pixela */
+
 @media (max-width: 768px) {
     .nav-bar ul li:not(:last-child) {
         display: none;
-    } 
-
+    }
     .nav-bar ul li:last-child {
         padding: 8px;
         float: right;
         display: flex;
     }
-
     .nav-bar li .fa-bars {
         display: flex;
     }
-
     .box {
         width: 100%;
         padding: 0;
         margin-bottom: 20px;
     }
-
     .box-wrapper.blog .box {
         width: 100%;
     }
-
     .subscribe {
         min-height: 150px;
         margin-top: 50px;
     }
-
     .subscribe-form .form-inline input {
         min-width: 200px;
     }
-
     .box-wrapper.executive .box {
         width: 100%;
         align-items: flex-start;
     }
-
     .footer .contact-2 p {
         font-size: 12px;
         letter-spacing: 0.8px;
     }
-
     .login-wrapper {
         min-height: 580px;
     }
-
     .login-options .options-box {
         width: 100%;
         justify-content: flex-start;
@@ -718,14 +749,15 @@ input[type=checkbox] {
     }
 }
 
+
 /* Tablet - od 768 pixela */
-@media (min-width: 768px) {
-    
-}
+
+@media (min-width: 768px) {}
+
 
 /* SmartPhone - do 470px */
+
 @media (max-width: 470px) {
-    
     .footer .contact li a {
         text-decoration: none;
         text-transform: uppercase;
@@ -734,7 +766,6 @@ input[type=checkbox] {
         padding: 8px;
         letter-spacing: 0.8px;
     }
-    
     .footer .contact-2 p {
         font-size: 12px;
         letter-spacing: 0.8px;

@@ -8,11 +8,11 @@
 
     class Config {
 
-        const DB_HOST = 'enter db host';
+        const DB_HOST = 'localhost';
         const DB_NAME = 'enter db name';
         const DB_SOURCE = 'mysql:host=' . self::DB_HOST . ';dbname=' . self::DB_NAME . ';charset=utf8';
-        const DB_USER = 'enter db user';
-        const DB_PASSWORD = 'enter db password';
+        const DB_USER = 'root';
+        const DB_PASSWORD = '';
 
     }
 
